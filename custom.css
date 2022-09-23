@@ -1,0 +1,48 @@
+.well { 
+    font-size: 15px; 
+    border: none; 
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel-body { 
+    font-size:25px;
+}
+.col-sm-12 { 
+    top:100px;
+    left:50px;
+}
+.col-sm-3{
+    top:120px
+}
+.panel.panel-default{
+    border:none;
+}
+.col-sm-3.well { 
+    top:0px;
+    border:none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.intro{
+    font-size: 40px 
+}
+.interests-text{
+    padding-top:10px;
+    font-size:18px;
+    position:relative;
+}
+.footer{
+    bottom: 0px;
+}
+.fa_custom {
+    color:#000000;
+}
+.label{
+    font-size: 12px;
+}
+.img-circle{
+    position:relative;
+    width:100%;
+}

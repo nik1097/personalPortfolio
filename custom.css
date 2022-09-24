@@ -1,48 +1,104 @@
-.well { 
-    font-size: 15px; 
-    border: none; 
+.well {
+    font-size: 15px;
+    border: none;
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.panel-body { 
-    font-size:25px;
+
+.panel-body {
+    font-size: 25px;
 }
-.col-sm-12 { 
-    top:100px;
-    left:50px;
+
+.col-sm-12 {
+    top: 100px;
+    left: 50px;
 }
-.col-sm-3{
-    top:120px
+
+.col-sm-3 {
+    top: 120px
 }
-.panel.panel-default{
-    border:none;
+
+.panel.panel-default {
+    border: none;
 }
-.col-sm-3.well { 
-    top:0px;
-    border:none;
+
+.col-sm-3.well {
+    top: 0px;
+    border: none;
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.intro{
-    font-size: 40px 
+
+.intro {
+    font-size: 40px
 }
-.interests-text{
-    padding-top:10px;
-    font-size:18px;
-    position:relative;
+
+.interests-text {
+    padding-top: 10px;
+    font-size: 18px;
+    position: relative;
 }
-.footer{
+
+.footer {
     bottom: 0px;
 }
+
 .fa_custom {
-    color:#000000;
+    color: #000000;
 }
-.label{
+
+.label {
     font-size: 12px;
 }
-.img-circle{
-    position:relative;
-    width:100%;
+
+.img-circle {
+    position: relative;
+    width: 100%;
+}
+
+.card-text {
+    padding-left: 10px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float 2 columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-card-4 {
+    height: 300px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
 }

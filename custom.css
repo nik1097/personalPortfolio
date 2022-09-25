@@ -101,3 +101,7 @@ body {
         margin-bottom: 20px;
     }
 }
+
+.navbar {
+    background-color: rgb(27, 17, 17);
+}
